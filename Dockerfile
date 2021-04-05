@@ -8,6 +8,8 @@ cd OpenJSCAD.org && \
 git checkout V2 && \
 npm i 
 
+ADD index.html /OpenJSCAD.org/packages/web/docs/
+
 WORKDIR /OpenJSCAD.org/
 
 EXPOSE 8081
