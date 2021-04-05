@@ -10,6 +10,8 @@ npm i
 
 WORKDIR /OpenJSCAD.org/
 
+EXPOSE 8081
+
 CMD npm run web
 
 # docker build --tag openjscadv2:latest .
