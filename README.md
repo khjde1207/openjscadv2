@@ -5,7 +5,7 @@
 [OpenJSCAD V2 WebPage](https://www.openjscad.xyz/)
 
 ```
-docker run khjde1207/openjscadv2:latest
+docker run -p 8081:8081 khjde1207/openjscadv2:latest
 ```
 
 connect url : http://localhost:8081
